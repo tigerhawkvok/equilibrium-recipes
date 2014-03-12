@@ -7,7 +7,7 @@ A fork for just KR can be found at http://www.quantum-immortal.net/rspradley/rec
 
 # How to add
 
-This assumes you have an account. Otherwise, email your mod to me!
+This assumes you have an account. Otherwise, [join GitHub](https://github.com/join) or email your mod to me!
 
 1. Take [the template file](https://github.com/tigerhawkvok/equilibrium-recipes/blob/master/template.php), and copy its contents.
 

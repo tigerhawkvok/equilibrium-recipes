@@ -23,14 +23,14 @@ function array_multimerge($a1,$a2)
           $skip = false;
           if(key_exists($k,$r) && !is_numeric($k))
             {
-            $i=2;
-            $kt = $k+"-"$i;
+              $i=2;
+              $kt = $k."-".$i;
               while(key_exists($kt,$r))
                 {
                   $i++;
-                  $kt = $k+"-"$i;
+                  $kt = $k."-".$i;
                 }
-              $k = $k+"-"+$i;
+              $k = $k."-".$i;
             }
           else if (key_exists($k,$r) && is_numeric($k))
             {

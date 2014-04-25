@@ -10,6 +10,7 @@ A fork for just KR can be found at http://www.quantum-immortal.net/rspradley/rec
 Include this anywhere in your root loop:
 
 ```php
+function array_multimerge($a1,$a2)
 {
   /*
    * Takes an array with duplicate keys and renames the keys.

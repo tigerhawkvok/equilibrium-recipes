@@ -57,12 +57,17 @@ function includeTarget($url)
       $json=@file_get_contents($url,false,$context);
       if($json === false) return $fill;
       $fill=json_decode($json,true);
+      $list=array();
+      foreach($fill as $key=>$value)
+        {
+          $list[$key]="\n\t<li><a href='$value'>$key</a></li>";
+        }
     }
   catch (Exception $e)
     {
-      return is_array($fill) ? array():$fill;
+      return is_array($list) ? $list:array();
     }
-  return is_array($fill) ? array():$fill;
+  return is_array($list) ? $list:array();
 }
 ```
 

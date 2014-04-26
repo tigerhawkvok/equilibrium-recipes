@@ -36,12 +36,14 @@ function dirListPHP ($directory,$filter=null)
 $list = dirListPHP("./","php");
 asort($list);
 $ret = array();
+$path = "http://".$_SERVER['SERVER_NAME'].dirname($_SERVER['PHP_SELF'])."/";
 foreach($list as $recipe)
   {
     $search_arr =array(".php","_");
     $replace_arr = array(""," ");
     $name = str_replace($search_arr,$replace_arr,$recipe);
-    if($name != "api") $ret[$name] = "http://".$_SERVER['SERVER_NAME']."/".$recipe;
+
+    if($name != "api") $ret[$name] = $path.$recipe;
   }
 
 returnAjax($ret);

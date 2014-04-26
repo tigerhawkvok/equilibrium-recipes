@@ -21,7 +21,7 @@ function array_multimerge($a1,$a2)
       foreach($a2 as $k=>$v)
         {
           $skip = false;
-          if(key_exists($k,$r) && !is_numeric($k))
+          if(array_key_exists($k,$r) && !is_numeric($k))
             {
               $i=2;
               $kt = $k."-".$i;
@@ -30,14 +30,14 @@ function array_multimerge($a1,$a2)
                   $i++;
                   $kt = $k."-".$i;
                 }
-              $k = $k."-".$i;
+              $k = $kt;
             }
           else if (key_exists($k,$r) && is_numeric($k))
             {
               $r[]=$v;
               $skip = true;
             }
-          if(!$skip) $r[$k]=$v;
+          if(!$skip) $r[$k]="\n\t<li><a href='$v'>$k</a></li>";;
         }
     }
   return array_unique($r);
@@ -60,7 +60,7 @@ function includeTarget($url)
       $list=array();
       foreach($fill as $key=>$value)
         {
-          $list[$key]="\n\t<li><a href='$value'>$key</a></li>";
+          $list[strtolower($key)]=$value;
         }
     }
   catch (Exception $e)

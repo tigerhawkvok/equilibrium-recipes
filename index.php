@@ -16,7 +16,7 @@ function array_multimerge($a1,$a2)
       foreach($a2 as $k=>$v)
         {
           $skip = false;
-          if(key_exists($k,$r) && !is_numeric($k))
+          if(array_key_exists($k,$r) && !is_numeric($k))
             {
               $i=2;
               $kt = $k."-".$i;
@@ -25,14 +25,14 @@ function array_multimerge($a1,$a2)
                   $i++;
                   $kt = $k."-".$i;
                 }
-              $k = $k."-".$i;
+              $k = $kt;
             }
           else if (key_exists($k,$r) && is_numeric($k))
             {
               $r[]=$v;
               $skip = true;
             }
-          if(!$skip) $r[$k]=$v;
+          if(!$skip) $r[$k]="\n\t<li><a href='$v'>$k</a></li>";;
         }
     }
   return array_unique($r);
@@ -55,7 +55,7 @@ function includeTarget($url)
       $list=array();
       foreach($fill as $key=>$value)
         {
-          $list[$key]="\n\t<li><a href='$value'>$key</a></li>";
+          $list[strtolower($key)]=$value;
         }
     }
   catch (Exception $e)
@@ -65,7 +65,7 @@ function includeTarget($url)
   return is_array($list) ? $list:array();
 }
 
-function dirList ($directory) 
+function dirList ($directory)
 {
   $out= "\n<ul id='dirlist'>";
   // create a handler for the directory
@@ -75,7 +75,7 @@ function dirList ($directory)
   // keep going until all files in directory have been read
   while ($file = readdir($handler)) {
 
-    // if $file isn't this directory or its parent, 
+    // if $file isn't this directory or its parent,
     // add it to the results array
     if ($file != '.' && $file != '..' && $file != 'error_log' && $file != 'index.php' && $file != 'generate_sitemap.php' && $file!='fonts' && $file!='api.php') {
       if(!strpos($file,"css") && !strpos($file,"inc") && !strpos($file,"xml")  && !strpos($file,"bak"))
@@ -90,8 +90,8 @@ function dirList ($directory)
   // Multimerge above will append a number to the end of the recipe name in case of duplicate versions.
   $list=array_multimerge($list,includeTarget('http://www.quantum-immortal.net/rspradley/recipes/api.php'));
   /*
-   * Since the keys contain recipe names, 
-   * and the values may contain full URLs, 
+   * Since the keys contain recipe names,
+   * and the values may contain full URLs,
    * sort by the keys
    */
   ksort($list);

@@ -50,7 +50,7 @@ echo $contenttype;
 	  </form>
 	  <script type="text/javascript" src="http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"></script>
 	  <br/>
-      <p class='clear'><a href='index.php'>Root Page</a> | <a href='http://www.quantum-immortal.net/rspradley/recipes/root.php'>Kit &amp; Rachael&#39;s site &#187;</a></p>
+      <p class='clear'><a href='index.php'>Root Page</a> | <a href='https://github.com/tigerhawkvok/equilibrium-recipes'>GitHub &#187;</a> | <a href='http://www.quantum-immortal.net/rspradley/recipes/root.php'>Kit &amp; Rachael&#39;s site &#187;</a></p>
 	</div>
 	<p id='printview'>
 	  <a href='?view=<?php if($_REQUEST['view']=='p') echo 's';

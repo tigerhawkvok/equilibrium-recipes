@@ -7,16 +7,16 @@ include('header.inc');
 
 <ul id='ingredients'>
   <!-- Ingredients in unordered list -->
-  <li>15 oz pumpkin pure&eacute;</li>
+  <li>15 oz pumpkin pure&eacute; (pumpkin pie mix for more flavor)</li>
   <li>4 eggs </li>
-  <li>1 cup canola oil </li>
+  <li>1.25 cup canola oil </li>
   <li>2/3 cup water </li>
   <li>3 cups white sugar </li>
   <li>3.5 cups flour </li>
   <li>2 tsp baking soda </li>
   <li>1.5 tsp salt </li>
-  <li>1 tsp ground cinnamon </li>
-  <li>1 tsp ground nutmeg </li>
+  <li>1.5 tsp ground cinnamon </li>
+  <li>1.5 tsp ground nutmeg </li>
   <li>1/2 tsp ground cloves </li>
   <li>1/2 tsp ground ginger </li>
 </ul>

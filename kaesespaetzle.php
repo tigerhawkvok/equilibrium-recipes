@@ -7,7 +7,7 @@ include('header.inc');
 
 <ul id='ingredients'>
   <!-- Ingredients in unordered list -->
-  <li>4 cups cooked sp&#0228;tzle</li>
+  <li>4 cups cooked <a href='http://revealedsingularity.net/recipes/spaetzle.php'>sp&#0228;tzle</a></li>
   <li>1 onion, diced</li>
   <li>1/2 pound grated gruyere or emmenthaler cheese</li>
 </ul>

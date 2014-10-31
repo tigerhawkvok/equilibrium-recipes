@@ -36,7 +36,7 @@ function dirListPHP ($directory,$filter=null)
 $list = dirListPHP("./","php");
 asort($list);
 $ret = array();
-$path = "http://".$_SERVER['SERVER_NAME'].dirname($_SERVER['PHP_SELF'])."/";
+$path = "http://".$_SERVER['SERVER_NAME'].dirname($_SERVER["REQUEST_URI"])."/";
 foreach($list as $recipe)
   {
     $search_arr =array(".php","_");

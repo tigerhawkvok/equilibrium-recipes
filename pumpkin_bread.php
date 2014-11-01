@@ -7,7 +7,7 @@ include('header.inc');
 
 <ul id='ingredients'>
   <!-- Ingredients in unordered list -->
-  <li>15 oz pumpkin pure&eacute; (pumpkin pie mix for more flavor)</li>
+  <li>15 oz pumpkin pure&#0233; (pumpkin pie mix for more flavor)</li>
   <li>4 eggs </li>
   <li>1.25 cup canola oil </li>
   <li>2/3 cup water </li>
@@ -24,7 +24,7 @@ include('header.inc');
 <ol id='process'>
   <!-- Steps as ordered list elements -->
   <li>Preheat the oven to 350 and prepare 3 7x3 loaf pans</li>
-  <li>In a large bowl, mix pure&eacute;, eggs, oil, water, and sugar until well blended </li>
+  <li>In a large bowl, mix pure&#0233;, eggs, oil, water, and sugar until well blended </li>
   <li>In a seperate bowl, whisk together flour, baking soda, salt, and the spices. </li>
   <li>Stir the dry ingredients into the pumpkin mixture until well blended. </li>
   <li>Pour into prepared pans and bake for 50 minutes. </li>

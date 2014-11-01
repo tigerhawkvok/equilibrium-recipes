@@ -28,7 +28,7 @@ include('header.inc');
   <li>Mix pepper, stock, and sugar in bowl </li>
   <li>Coat the primary food ingredient in the mixture </li>
   <li>Heat the pan very hot </li>
-  <li>Saute&eacute; the garlic until very lightly browned. Letting this step go too long will burn the garlic in the end dish. </li>
+  <li>Saute&#0233; the garlic until very lightly browned. Letting this step go too long will burn the garlic in the end dish. </li>
   <li>Add the coated food and stir. </li>
   <li>Add the fish sauce and stir. </li>
   <li>At this point,the dish will tend to get dry and sticky. Keep adding water until the food finishes cooking, maintaining the consistency of the sauce. </li>

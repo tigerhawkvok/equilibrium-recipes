@@ -18,6 +18,8 @@ echo $contenttype;
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
   <head>
     <title><?php echo $title; ?></title>
+    <meta name="theme-color" content="#cae682"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <?php
        if(browser_detection('browser')=='ie')
          {

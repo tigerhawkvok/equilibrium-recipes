@@ -1,10 +1,10 @@
-<?php $title="Apple Cramble";
+<?php $title="Apple Crumble";
 include("header.inc");?>
 <ul>
 <li>4 firm medium apples</li>
 <li>1 cup sugar</li>
 <li>1 cup all-purpose flour</li>
-<li>1 butter stick<li>
+<li>1 butter stick</li>
 <li>1 tablespoon ground cinnamon</li>
 </ul>
 <p class="process">Wash and core apples, cut into dices. Place in a baking dish.

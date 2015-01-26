@@ -10,6 +10,7 @@
     <link rel='stylesheet' type='text/css' title='Print CSS' href='print.css'
     media='<?php if($_REQUEST['view']=='p') echo "all"; else echo
     "print,handheld"; ?>'/>
+    <link rel='stylesheet' type='text/css' title='Bootstrap' href='bower_components/bootstrap/dist/css/boostrap.min.css' />
     <link rel="icon" type="image/png" href="icon.png" />
   </head>
   <body>

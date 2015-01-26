@@ -1,31 +1,9 @@
-<?php
-include('browser.inc');
-$contenttype = "<?xml version='1.0' encoding='utf-8' ?>\n";
-if(browser_detection('browser')=='ie')
-  {
-    if (browser_detection('number')<9) 
-      {
-	$mime_type = "text/html"; // hide through IE8
-	$contenttype="";
-      }
-  }
-else $mime_type = "application/xhtml+xml";
-header("Content-Type: $mime_type;charset=utf-8");
-header("Vary: Accept");
-echo $contenttype;
-?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
   <head>
     <title><?php echo $title; ?></title>
     <meta name="theme-color" content="#cae682"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <?php
-       if(browser_detection('browser')=='ie')
-         {
-          echo "<meta http-equiv='Content-Type' content='$mime_type;charset=utf-8' />\n<meta http-equiv='X-UA-Compatible' content='chrome=1' />";
-         }
-       ?>
     <?php if($_REQUEST['view']!='p') { ?>
     <link rel='stylesheet' type='text/css' title='Main CSS'
     href='main.css' media='screen'/> <?php } ?>

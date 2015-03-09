@@ -4,7 +4,7 @@ include("header.inc");?>
   <li>3 eggs</li>
   <li>3/4 cup milk</li>
   <li>2 shots spiced rum</li>
-  <li>2 cup chocolate chips (melted)</li>
+  <li>2 cup chocolate chips (to be melted)</li>
   <li>3/4 cup unsweetened cocoa powder</li>
   <li>1 cup boiling water</li>
   <li>1.75 cups flour</li>

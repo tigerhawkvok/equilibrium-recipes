@@ -3,7 +3,7 @@ include('browser.inc');
 $contenttype = "<?xml version='1.0' encoding='utf-8' ?>\n";
 if(browser_detection('browser')=='ie')
   {
-    if (browser_detection('number')<9) 
+    if (browser_detection('number')<9)
       {
 	$mime_type = "text/html"; // hide through IE8
 	$contenttype="";
@@ -19,7 +19,7 @@ echo $contenttype;
   <head>
     <title><?php echo $title; ?></title>
     <meta name="theme-color" content="#cae682"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <?php
        if(browser_detection('browser')=='ie')
          {
@@ -27,8 +27,9 @@ echo $contenttype;
          }
        ?>
     <?php if($_REQUEST['view']!='p') { ?>
-    <link rel='stylesheet' type='text/css' title='Main CSS'
-    href='main.css' media='screen'/> <?php } ?>
+    <link rel='stylesheet' type='text/css' title='Main CSS' href='main.css' media='screen'/>
+    <link rel='stylesheet' type='text/css'  href='bower_components/bootstrap/dist/css/bootstrap.min.css' media='screen'/> 
+    <?php } ?>
     <link rel='stylesheet' type='text/css' title='Print CSS' href='print.css'
     media='<?php if($_REQUEST['view']=='p') echo "all"; else echo
     "print,handheld"; ?>'/>
@@ -36,26 +37,29 @@ echo $contenttype;
   </head>
   <body>
     <div id='supercontainer'>
-      <div id='container'>
-	<div id='title'>
-	  <h1>
+      <div id='container' class="container">
+        <header id="title" class="row">
+	  <h1 class="col-xs-12">
 	    <?php echo $title; ?>
 	  </h1>
-	  <!-- Google custom Search -->
-	  <form action="http://www.google.com/cse" id="cse-search-box">
-	    <div>
+          <!-- Google custom Search -->
+          <form action="http://www.google.com/cse" id="cse-search-box" class="col-md-6 col-sm-12 col-xs-12 pull-right form-inline hidden-xs hidden-sm" style="margin-bottom:10px">
+	    <div class="form-group">
 	      <input type="hidden" name="cx" value="003771878092582119336:vpnpkeintts" />
 	      <input type="hidden" name="ie" value="UTF-8" />
-	      <input type="submit" name="sa" value="Search" />
-	      <input type="text" name="q" size="31" />
+              <label for="q" class="sr-only">Search Recipes</label>
+	      <input type="text" name="q" class="form-control" id="q" />
 	    </div>
-	  </form>
-	  <script type="text/javascript" src="http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"></script>
-	  <br/>
-      <p class='clear'><a href='index.php'>Root Page</a> | <a href='https://github.com/tigerhawkvok/equilibrium-recipes'>GitHub &#187;</a> | <a href='http://www.quantum-immortal.net/rspradley/recipes/root.php'>Kit &amp; Rachael&#39;s site &#187;</a></p>
-	</div>
-	<p id='printview'>
+            <button type="submit" name="sa" class="btn btn-default">Search</button>
+          </form>
+          <script type="text/javascript" src="http://www.google.com/cse/brand?form=cse-search-box&amp;lang=en"></script>
+          <p class="col-md-6 col-sm-12">            
+            <a href='index.php'>Root Page</a> | <a href='https://github.com/tigerhawkvok/equilibrium-recipes'>GitHub &#187;</a> | <a href='http://www.quantum-immortal.net/rspradley/recipes/root.php'>Kit &amp; Rachael&#39;s site &#187;</a> 
+          </p>
+        </header>
+	<p id='printview' class="hidden-xs hidden-sm">
 	  <a href='?view=<?php if($_REQUEST['view']=='p') echo 's';
 			       else echo 'p'; ?>'><?php if($_REQUEST['view']!='p') echo
 							"Print"; else echo "Standard"; ?> View</a>
 	</p>
+        <br class="visible-xs-block visible-sm-block clearfix"/>

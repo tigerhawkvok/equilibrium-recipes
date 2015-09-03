@@ -6,7 +6,7 @@ include('header.inc');
   <!-- Ingredients in unordered list -->
   <li>2 eggs, beaten</li>
   <li>1 cup grated Parmesan cheese</li>
-  <li>5 ounces seasoned bread crumbs</li>
+  <li>5 ounces seasoned bread crumbs (with plain bread crumbs: add oregano, onion powder, garlic powder, basil) | Substitute: 50% flour, 50% corn starch</li>
   <li>2 skinless, boneless chicken breast halves</li>
   <li>1 tablespoon olive oil</li>
   <li> &gt;= 15 ounces pasta sauce</li>

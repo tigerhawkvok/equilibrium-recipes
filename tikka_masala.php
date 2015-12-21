@@ -22,7 +22,7 @@ include('header.inc');
   <li>1 Tbsp sugar</li>
   <li>14oz tomato sauce</li>
   <li>1.25 cup heavy cream</li>
-  <li>2 lbs sugar (Veggie: 2 pkg Quorn Naked Chik'n Cutlets/Tenders)</li>
+  <li>2 lbs chicken (Veggie: 2 pkg Quorn Naked Chik'n Cutlets/Tenders)</li>
   <li>1 Tbsp sesame oil (Veggie: 2 Tbsp)</li>
   <li>0.5 tsp curry</li>
   <li>Veggie, optional: ~ 1.5 tsp Bragg's Amino Acids</li>
@@ -34,9 +34,9 @@ include('header.inc');
   <li>In a rammakin or small cup, mix cumin, salt, ginger, cayenne, cinnamon, and tumeric.</li>
   <li>Heat butter over medium heat until mostly melted, then add in onion.</li>
   <li>Stir onion until translucent, ~5 min.</li>
-  <li>Crush garlic into saute&eacute;ing onions and stir till fragrant, ~1 min.</li>
+  <li>Crush garlic into saute&#0233;ing onions and stir till fragrant, ~1 min.</li>
   <li>
-    Dump spice rammakin into saute&eacute;, and stir together.
+    Dump spice rammakin into saute&#0233;, and stir together.
     (Keep stirring to prevent burning of spices. If it starts to burn, add ~1 Tbsp more butter).
     Fry until fragrant, ~1 minute.
   </li>

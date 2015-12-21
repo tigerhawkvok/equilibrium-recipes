@@ -7,12 +7,12 @@ include('header.inc');
 
 <ul id='ingredients'>
   <!-- Ingredients in unordered list -->
-  <li>1 pound ground beef</li>
-  <li>2 eggs</li>
-  <li>1/2 cup bread crumbs or oatmeal</li>
-  <li>2 cloves garlic, crushed</li>
-  <li>1/2 cup Parmesan cheese</li>
-  <li>1/4 cup chopped parsley, sage, oregano, or whatever</li>
+  <li>1 pound ground beef (Veggie: 1x Gimme Lean, 2x Quorn)</li>
+  <li>2 eggs (Veggie: 3)</li>
+  <li>1/2 cup bread crumbs or oatmeal (Veggie: double)</li>
+  <li>2 cloves garlic, crushed (Veggie: double)</li>
+  <li>1/2 cup Parmesan cheese (Veggie: double)</li>
+  <li>1/4 cup chopped parsley, sage, oregano, or whatever (Veggie: double)</li>
   <li>3 T olive oil</li>
   <li>1 1/2 jars tomato sauce</li>
   <li>1 pound spaghetti</li>

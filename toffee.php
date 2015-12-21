@@ -26,7 +26,7 @@ include('header.inc');
   <li><strong>IMPORTANT:</strong> if the oil begins to separate, increase heat slightly (eg, from 5/10 &#8594; 6-7/10). Do NOT stir faster unless the sugar has begun to candy! This will be obvious, as the sugar will start to be "tendrily", think, and stringy as you stir it. You may add a pinch more sugar to further stabilize the mixture.</li>
   <li>The almonds will begin to cook and make crackling/popping noises. This is a good sign.</li>
   <li>Toffee will begin to turn a darker brown, about that of golden brown brown sugar. Begin to stir faster, as fast as you dare (beware molten sugar/butter!) The mixture MUST stay mixed to "work".</li>
-  <li>When almonds are dark brown and buttercream mixture is golden/dark brown, and it is aromatic with almonds (Should be ~ 155&#176;C &#177; 4&#176;C, pour into the cookie sheet.</li>
+  <li>When almonds are dark brown and buttercream mixture is golden/dark brown, and it is aromatic with almonds (Should be ~ 155&#176;C &#177; 4&#176;C (300&#176; - 320&#176 F), pour into the cookie sheet.</li>
   <li>Sprinkle chocolate evenly over the top while still molten/bubbling. Chocolate will immediately begin to melt and penetrate the mixture. Spread out as evenly as possible while it does so.</li>
   <li>Let stand 30-45 minutes before placing it into the fridge/freezer/sampling.</li>
 </ol>

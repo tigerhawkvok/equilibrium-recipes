@@ -14,7 +14,7 @@ include('header.inc');
   <li>4 cloves garlic</li>
   <li>1 tsp salt</li>
   <li>1 tsp ginger</li>
-  <li>1 tsp cayenne</li>
+  <li>1.25 tsp cayenne</li>
   <li>0.5 tsp cinnamon</li>
   <li>0.5 tsp tumeric</li>
   <li>1 Tbsp paprika</li>

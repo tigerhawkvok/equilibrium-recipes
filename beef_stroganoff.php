@@ -3,7 +3,8 @@ include('header.inc');
 ?>
 
 <ul>
-<li>2 pounds beef</li>
+<li>2 pounds beef (Veggie: 2pkg tofu + 2 tsp Bragg's)</li>
+<li>1.5 tsp dill</li>
 <li>1/2 teaspoon salt</li>
 <li>1/2 teaspoon pepper</li>
 <li>4 oz. butter</li>

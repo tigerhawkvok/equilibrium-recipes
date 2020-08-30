@@ -10,12 +10,12 @@ include('header.inc');
   <li>4 green apples - peeled, cored, sliced</li>
   <li>1 cup brown sugar</li>
   <li>1 cup golden raisins</li>
-  <li>1/8 cup dark or spiced rum</li>
-  <li>4 oz chopped semisweet chocolate chips</li>
+  <li>2 Tbsp dark or spiced rum</li>
+  <li>1/2 cup chopped semisweet chocolate chips</li>
   <li></li>
   <li>1 sheet frozen puff pastry</li>
   <li>1 egg</li>
-  <li>2 tsps sugar</li>
+  <li>2 tsp sugar</li>
 </ul>
 
 <ol id='process'>

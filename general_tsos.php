@@ -20,9 +20,9 @@ include("header.inc");?>
 </ul><br />
 <ol>
 <li>Mix egg and soy sauce. Cut chicken into bite sizes, coat in egg
-  mixture, coat in flour, and drop into HOT oil.</li>
+  mixture, coat in flour, and drop into HOT oil or air fryer.</li>
 <li>Fry for 2-3 mins, then remove to paper towel. Continue until all
-  chicken is cooked.</li>
+  chicken is cooked. If using an air fryer, set at maximum temperature for ~7m</li>
 <li>Mix sauce ingredients together, set aside.</li>
 <li>Stir fry green onions and broccoli in HOT wok with a bit of oil
   for 45 seconds, add sauce mixture.</li>

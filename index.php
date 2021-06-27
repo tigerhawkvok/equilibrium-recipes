@@ -77,7 +77,7 @@ function dirList ($directory)
 
     // if $file isn't this directory or its parent,
     // add it to the results array
-    if ($file != '.' && $file != '..' && $file != 'error_log' && $file != 'index.php' && $file != 'generate_sitemap.php' && $file!='fonts' && $file!='api.php' && $file!='bower_components' && $file!='.gitattributes' && $file!='.gitignore' && $file!='LICENSE' && $file!='README.md') {
+    if ($file != '.' && $file != '..' && $file != 'error_log' && $file != 'index.php' && $file != 'generate_sitemap.php' && $file!='fonts' && $file!='api.php' && $file!='bower_components' && $file!='.gitattributes' && $file!='.gitignore' && $file!='LICENSE' && $file!='README.md' && $file!='bower.json' ) {
       if(!strpos($file,"css") && !strpos($file,"inc") && !strpos($file,"xml")  && !strpos($file,"bak"))
         {
           $file_name=str_replace("_"," ",$file);

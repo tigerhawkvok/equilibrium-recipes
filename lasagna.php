@@ -3,7 +3,7 @@ include('header.inc');
 ?>
 
 <ul>
-  <li>2 lbs ground beef (normal)</li>
+  <li>2 lbs ground beef (No leaner than 85/15). I do <em>not</em> suggest bison for this dish.</li>
   <li>1/2 cup minced onion</li>
   <li>5 cloves crushed or diced garlic</li>
   <li>28 oz crushed tomatoes</li>

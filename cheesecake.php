@@ -7,11 +7,11 @@ include('header.inc');
 
 <ul id='ingredients'>
   <!-- Ingredients in unordered list -->
-  <li>15 graham crackers</li>
+  <li>15 graham crackers -- I'm liking the "Annies Honey Bunny Grahams" right now</li>
   <li>2 Tbsp butter</li>
   <li>4x8oz packs cream cheese</li>
   <li>1.5 cups sugar</li>
-  <li>3/4 cups milk (whole; I like the texture from cream top)</li>
+  <li>3/4 cups milk (I like the texture from fresh pour of whole raw cream top milk giving a creamier cheesecake, but any whole will do in a pinch)</li>
   <li>4 eggs</li>
   <li>1 cup sour cream</li>
   <li>1 Tbsp vanilla extract</li>
@@ -25,6 +25,7 @@ include('header.inc');
   important!</b></li>
   <li><b>ALL mixing should be done by hand or on the lowest setting of a stand mixer</b>. Do NOT overmix.</li>
   <li>Grease the sides of a springform pan with butter</li>
+  <li>Put the crackers and butter in a food proccessor and blend until fine. In a Vitamix or similar, the crumb mixture should start to flow.</li>
   <li>Mix crushed graham crackers and butter and press into the bottom
   of a springform pan to form a crust.</li>
   <li>Preheat the oven to 350<sup>o</sup>F / 175<sup>o</sup>C. On the rack below where you will place the cheesecake, put in a 9x13 filled with water during the preheat. (This will help prevent cracking).</li>

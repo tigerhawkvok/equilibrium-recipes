@@ -7,7 +7,7 @@ include('header.inc');
 
 <ul id='ingredients'>
   <!-- Ingredients in unordered list -->
-  <li>15 graham crackers -- I'm liking the "Annies Honey Bunny Grahams" right now</li>
+  <li>15 graham crackers -- I'm liking the "Annies Honey Bunny Grahams" right now (one package)</li>
   <li>2 Tbsp butter</li>
   <li>4x8oz packs cream cheese</li>
   <li>1.5 cups sugar</li>
